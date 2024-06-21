@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lecture9_R_Print_and_BackTracking/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/Lecture9_R_Print_and_BackTracking/BackTracking/BackTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java Crux course.iml" filepath="$PROJECT_DIR$/.idea/Java Crux course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture5_Strings/Lecture5_Strings.iml" filepath="$PROJECT_DIR$/Lecture5_Strings/Lecture5_Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture7_Time_and_Space_Complexity/Lecture7_Time_and_Space_Complexity.iml" filepath="$PROJECT_DIR$/Lecture7_Time_and_Space_Complexity/Lecture7_Time_and_Space_Complexity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture8_Recursion_get/Lecture8_Recursion_get.iml" filepath="$PROJECT_DIR$/Lecture8_Recursion_get/Lecture8_Recursion_get.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture9_R_Print_and_BackTracking/Lecture9_Recursion_Print.iml" filepath="$PROJECT_DIR$/Lecture9_R_Print_and_BackTracking/Lecture9_Recursion_Print.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_10_OOPS_and_Stacks/Lecture_10_OOPS_and_Stacks.iml" filepath="$PROJECT_DIR$/Lecture_10_OOPS_and_Stacks/Lecture_10_OOPS_and_Stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_11_Queue/Lecture_11_Queue.iml" filepath="$PROJECT_DIR$/Lecture_11_Queue/Lecture_11_Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_12_Linked_List/Lecture_12_Linked_List.iml" filepath="$PROJECT_DIR$/Lecture_12_Linked_List/Lecture_12_Linked_List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_13_Generic_And_Binary_Tree/Lecture_13_Generic_And_Binary_Tree.iml" filepath="$PROJECT_DIR$/Lecture_13_Generic_And_Binary_Tree/Lecture_13_Generic_And_Binary_Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_14_Interface_and_Generic/Lecture_14_Interface_and_Generic.iml" filepath="$PROJECT_DIR$/Lecture_14_Interface_and_Generic/Lecture_14_Interface_and_Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_15_HashMap/Lecture_15_HashMap.iml" filepath="$PROJECT_DIR$/Lecture_15_HashMap/Lecture_15_HashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_16_Heap/Lecture_16_Heap.iml" filepath="$PROJECT_DIR$/Lecture_16_Heap/Lecture_16_Heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_17_Text_Processing/Lecture_17_Text_Processing.iml" filepath="$PROJECT_DIR$/Lecture_17_Text_Processing/Lecture_17_Text_Processing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_18_DP/Lecture_18_DP.iml" filepath="$PROJECT_DIR$/Lecture_18_DP/Lecture_18_DP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_19_Graph/Lecture_19_Graph.iml" filepath="$PROJECT_DIR$/Lecture_19_Graph/Lecture_19_Graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_20_Segment_Tree/Lecture_20_Segment_Tree.iml" filepath="$PROJECT_DIR$/Lecture_20_Segment_Tree/Lecture_20_Segment_Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_21_Game_TicTacToe/Lecture_21_Game_TicTacToe.iml" filepath="$PROJECT_DIR$/Lecture_21_Game_TicTacToe/Lecture_21_Game_TicTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_22_Bit_Masking/Lecture_22_Bit_Masking.iml" filepath="$PROJECT_DIR$/Lecture_22_Bit_Masking/Lecture_22_Bit_Masking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_23_AVL_Tree/Lecture_23_AVL_Tree.iml" filepath="$PROJECT_DIR$/Lecture_23_AVL_Tree/Lecture_23_AVL_Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_24_Live_Sessions_Questions/Lecture_24_Live_Sessions_Questions.iml" filepath="$PROJECT_DIR$/Lecture_24_Live_Sessions_Questions/Lecture_24_Live_Sessions_Questions.iml" />
+    </modules>
+  </component>
+</project>
