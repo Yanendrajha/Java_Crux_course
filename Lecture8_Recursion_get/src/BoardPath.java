@@ -1,5 +1,3 @@
-import java.awt.image.AreaAveragingScaleFilter;
-import java.security.PublicKey;
 import java.util.ArrayList;
 
 public class BoardPath {
@@ -14,8 +12,7 @@ public class BoardPath {
             return val;
         }
         if (curr > end) {
-            ArrayList<String> val = new ArrayList<>();
-            return val;
+            return new ArrayList<>();
         }
         ArrayList<String> mr = new ArrayList<>();
         for (int dice = 1; dice <= 6; dice++) {
