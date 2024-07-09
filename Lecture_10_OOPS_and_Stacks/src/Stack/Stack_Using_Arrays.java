@@ -48,11 +48,10 @@ public class Stack_Using_Arrays {
         return this.data[this.top];
     }
 
-    public void display(){
-        for (int i = this.top; i >= 0; i--){
+    public void display() {
+        for (int i = this.top; i >= 0; i--) {
             System.out.print(this.data[i] + ", ");
         }
         System.out.println("END");
     }
-
 }
