@@ -22,6 +22,7 @@ public class Binary_Tree {
          this.root = takeInput(scn, null, false);
 
     }
+
     private Node takeInput(Scanner scn, Node parent, boolean isLeftOrRight){
         if(parent == null){
             System.out.println("Enter the data for Root node");
@@ -84,6 +85,7 @@ public class Binary_Tree {
         }
 
 }
+
     public int height(){
         return this.height(this.root);
     }
@@ -95,7 +97,7 @@ public class Binary_Tree {
         int lheight = this.height(node.left);
         int rheight = this.height(node.right);
 
-        int height = Math.max(lheight,rheight)+1;
+        int height = Math.max(lheight,rheight) + 1;
         return height;
     }
 
@@ -155,6 +157,7 @@ public class Binary_Tree {
             }
         }
     }
+
     public boolean isBST(){
         return this.isBST(this.root,Integer.MIN_VALUE,Integer.MAX_VALUE);
     }
