@@ -92,7 +92,7 @@ public class Binary_Tree {
 
     private int height(Node node){
        if(node == null){
-           return -1;
+           return 0;
        }
         int lheight = this.height(node.left);
         int rheight = this.height(node.right);
@@ -173,7 +173,6 @@ public class Binary_Tree {
         } else if(!this.isBST(node.right,node.data,max)){
             return false;
         }
-
         return false;
     }
 

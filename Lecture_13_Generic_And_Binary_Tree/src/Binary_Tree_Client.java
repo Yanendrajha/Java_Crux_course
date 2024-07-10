@@ -7,8 +7,9 @@ public class Binary_Tree_Client {
 //        System.out.println("Height is "+ B_tree.height());
 //        B_tree.preOrder();
 //        B_tree.postOrder();
-//        B_tree.inOrder();
-        B_tree.levelOrder();
+          B_tree.inOrder();
+//        B_tree.levelOrder();
+         System.out.println( B_tree.height());
 //        System.out.println(B_tree.isBST());
 //        System.out.println(B_tree.DiameterBetter());
         //System.out.println(B_tree.sumLeaf());
