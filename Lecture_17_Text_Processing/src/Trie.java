@@ -46,7 +46,7 @@ public class Trie {
         char cc = word.charAt(0);
         String ros =word.substring(1);
         Node child = parent.children.get(cc);
-        if( child == null){
+        if(child == null){
             child = new Node (cc, false);
             parent.children.put(cc,child);
         }
@@ -74,12 +74,8 @@ public class Trie {
         return searchWord(this.root,word);}
 
     private boolean searchWord(Node parent,String word){
-        if(word.length() == 0){
-            if(parent.isTerminal){
-                return true;
-            } else {
-                return false;
-            }
+        if(word.isEmpty()){
+            return parent.isTerminal;
         }
         char cc = word.charAt(0);
         String ros =word.substring(1);
@@ -98,13 +94,11 @@ public class Trie {
     }
 
     private void remove(Node parent, String word){
-        if(word.length() == 0){
-            if(parent.isTerminal){
+        if(word.isEmpty()){
+            if(parent.isTerminal) {
                 parent.isTerminal = false;
                 this.numWords--;
-            } else {
-                //Word is part of some other word.
-            }
+            } // Else - Word is part of some other word;
             return;
         }
         char cc = word.charAt(0);
@@ -116,7 +110,7 @@ public class Trie {
         this.remove(child,ros);
 
         // Work to remove the character of word form memory if it's not a part of other word.
-        if(!child.isTerminal && child.children.size() == 0){
+        if(!child.isTerminal && child.children.isEmpty()){
             parent.children.remove(cc);
         }
     }

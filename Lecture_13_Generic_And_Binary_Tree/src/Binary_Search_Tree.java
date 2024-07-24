@@ -140,7 +140,7 @@ public class Binary_Search_Tree {
             }
 
             // Case 2 - left null , right not null;
-            else if (node.left == null && node.right != null) {
+            else if (node.left == null) {
                 if(ilc){
                     parent.left = node.right;
                 } else {
@@ -149,7 +149,7 @@ public class Binary_Search_Tree {
             }
 
             // Case 3 - left not null , right not null;
-            else if(node.left != null && node.right == null) {
+            else if(node.right == null) {
                 if(ilc){
                     parent.left = node.left;
                 } else {

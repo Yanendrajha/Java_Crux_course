@@ -35,7 +35,5 @@ public class First_Non_Repeating_Character {
             }
             ch = scn.next().charAt(0);
         }
-
-
     }
 }
