@@ -6,12 +6,12 @@ public class Next_Greater_Element {
 
         Stack<Integer> stack = new Stack<>();
 
-        for (int i = 0; i < array.length; i++){
-            while(!stack.isEmpty() && array[i] > stack.peek()){
+        for (int j : array) {
+            while (!stack.isEmpty() && j > stack.peek()) {
                 int poped = stack.pop();
-                System.out.println(poped + " -> "+ array[i]);
+                System.out.println(poped + " -> " + j);
             }
-            stack.push(array[i]);
+            stack.push(j);
         }
         while (!stack.isEmpty()){
             int poped = stack.pop();

@@ -21,6 +21,7 @@ public class Stack_Using_Arrays {
     public boolean isEmpty(){
         return this.size() == 0;
     }
+
     public void push(int value) throws Exception{
         if (this.size() == this.data.length){
             throw new Exception("Stack is full");
